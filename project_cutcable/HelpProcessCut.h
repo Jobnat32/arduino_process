@@ -159,7 +159,7 @@ void ProcessCut(){
   //if (program_end == false)
   //{
    
-  //  Serial.println("ENCODER :" + String(encoder_value/2)+ ":" + String(SpPwmCut));
+Serial.println("ENCODER :" + String(encoder_value/2)+ ":" + String(SpPwmCut)); //เช็คระยะสาย
  if(program_end == false )//ถ้า  program_end  =  flase ให้ภายใน {}   
  {
   //Serial.println("hello p cut");
