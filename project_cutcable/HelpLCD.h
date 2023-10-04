@@ -39,6 +39,7 @@ void monitor_main( String text)
   lcd.setCursor(0, 0);//บันทัดที่ 1 
   // แสดงเลือก โมดในการทำงาน
   lcd.print("  Status: "  + text);//นำค่าที่ส่งผ่านฟังชั่นส่งมาแสดงผล 
+  lcd.setCursor(0, 1);//บันทัดที่ 2
   lcd.print("length : "+ legth_input + " m.");//นำค่าอ่านมาแสดง
   lcd.setCursor(1,2);//set ตำแหน่งต้องการแสดง
   lcd.print("SP Cut : " + String(set_cut) + " m.");// นำค่า set_cut มาแสดงผล
